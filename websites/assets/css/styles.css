@@ -696,7 +696,8 @@ margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
 
-    
+
+
 }
 .copyright-row {
     margin-left: -30%;
@@ -705,7 +706,7 @@ margin-bottom: 30px;
     gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
     font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
-    text-align: left;       /* Text ko left side par align rakhne ke liye */
+    text-align: left;       
 }
 
 .copyright-row a {
