@@ -676,7 +676,7 @@ margin-bottom: 30px;
     font-size: 11px;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.4);
-    max-width: 850px; /* Is se text automatic lines mein break ho jayega */
+    max-width: 850px; 
     margin-bottom: 20px;
 }
 
