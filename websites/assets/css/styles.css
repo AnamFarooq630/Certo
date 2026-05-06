@@ -476,7 +476,7 @@ margin-bottom: 30px;
     }
     
     .cta-buttons-wrapper {
-        flex-direction: column; /* Stack buttons vertically on mobile */
+        flex-direction: column; 
         gap: 15px;
     }
 }
