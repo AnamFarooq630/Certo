@@ -669,7 +669,7 @@ margin-bottom: 30px;
 /* Text Styling */
 .footer-bottom {
     margin-top: 50px;
-    text-align: left; /* Text ko left-aligned rakhne ke liye */
+    text-align: left; 
 }
 
 .legal-text {
