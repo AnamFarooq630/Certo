@@ -3,7 +3,7 @@
 --certo-dark-blue: #02033b; 
 --certo-yellow: #FFC043; 
 } 
-html, body {     /* Base Settings to prevent shifting */ 
+html, body {     
 overflow-x: hidden; 
 width: 100%; 
 margin: 0; 
@@ -21,7 +21,7 @@ padding: 0;
 min-height: 100vh; 
 display: flex; 
 align-items: center; 
-overflow: hidden; /* Bahar nikalti hui images ko lock karne ke liye */ 
+overflow: hidden; 
 background: #fff; 
 width: 100%;
 } 
