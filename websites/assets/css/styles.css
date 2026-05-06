@@ -110,18 +110,20 @@ border-radius: 50px !important;
     width: auto;
     display: block;
     /* REMOVE transform: translateX(-120px); <--- This was the culprit */
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
 }
 
 /* Ensure the container doesn't squeeze the logo */
 .navbar .container {
+    
     display: flex;
     justify-content: space-between; /* Keeps logo left, button right */
     align-items: center;
 }
+
 /* Specific styling for the button image */
 .fixed-btn-img {
-    height: 35px;            /* Set the fixed height */
+    height: 50px;            /* Set the fixed height */
     width: auto;             /* Keeps the image aspect ratio perfect */
     cursor: pointer;         /* Shows hand icon on hover */
     transition: transform 0.2s ease, opacity 0.2s ease; /* Smooth transition for hover effect */
@@ -143,7 +145,7 @@ border-radius: 50px !important;
 }
 
 .fixed-logo {
-    height: 30px;        /* Set the ideal height for your logo */
+    height: 50px;        /* Set the ideal height for your logo */
     width: auto;         /* Maintains the original aspect ratio */
     display: block;
     transition: transform 0.3s ease; /* Adds a smooth feel for interactions */
