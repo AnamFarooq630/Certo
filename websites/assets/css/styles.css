@@ -388,7 +388,7 @@ margin-bottom: 30px;
     max-width: 700px; 
     height: auto;
     object-fit: contain;
-    
+
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.03));
 }
 
@@ -703,7 +703,9 @@ margin-bottom: 30px;
     text-align: left;       
 }
 
-.copyright-row a {
-    color: white;
-    text-decoration: underline;
-}
+
+
+
+
+
+
