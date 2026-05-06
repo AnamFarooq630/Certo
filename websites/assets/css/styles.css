@@ -168,11 +168,10 @@ height: 450px;
 padding-left: 0; /* Mobile par blue border side se khatam */ 
 } 
 .fixed-btn-img {
-        height: 40px;        /* Smaller size for mobile screens */
-        margin-top: 15px;    /* Adds space from menu links on mobile */
-    }
+        height: 40px;       
+        margin-top: 15px;    
      .justify-content-end {
-        justify-content: center !important; /* Centers button on mobile menu */
+        justify-content: center !important; 
     }
 .mobile-container { 
 left: 50%; 
@@ -180,17 +179,17 @@ transform: translate(-50%, -50%);
 width: 220px; 
 } 
  .fixed-logo {
-        height: 35px;    /* Slightly smaller logo for mobile screens */
+        height: 35px;   
     }
 } 
                              
                             
                        /*Section 2*/ 
 .section-yellow { 
-background-color: #FFC043; /* Brand yellow background */ 
+background-color: #FFC043; 
 padding: 60px 0; 
 width: 100%; 
-overflow: hidden; /* Prevents content from overflowing outside */ 
+overflow: hidden; 
 } 
 .sec2-container { 
 max-width: 1200px; 
