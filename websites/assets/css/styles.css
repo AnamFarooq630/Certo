@@ -58,8 +58,8 @@ padding-left: 25px;
 /* --- THE MOBILE PHONE (The moving part) --- */ 
 .mobile-container { 
     position: absolute;
-     top: 48% !important;      /* moves UP */
-    left: 11% !important;     /* moves LEFT slightly */
+     top: 48% !important;      
+    left: 11% !important;     
     transform: translate(-50%, -50%) !important; 
          /* was 50% → moves UP */
  
@@ -68,7 +68,7 @@ padding-left: 25px;
     max-width: 300px; 
     z-index: 20; 
     pointer-events: none; 
-    margin-left: 18%;  /* was 20% → moves LEFT */
+    margin-left: 18%;  
 }
 .floating-mobile { 
 width: 100%; 
@@ -345,7 +345,7 @@ width: 60%;
 height: auto; 
 display: inline-block; 
 } 
-/* Features Grid (image11) */ 
+
 .spy-card-row { 
 width: 100%; 
 } 
@@ -432,7 +432,7 @@ margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     gap: 20px; 
-    flex-wrap: wrap; /* Wraps buttons on mobile */
+    flex-wrap: wrap; 
 }
 
 /* Image 15 (iPhone Button) Styling */
@@ -565,7 +565,6 @@ margin-bottom: 30px;
     width: 100%;
     height: auto;
 
-    /* white logo effect */
     filter: brightness(0) invert(1);
 }
 
