@@ -27,12 +27,12 @@ width: 100%;
 } 
 /* Left Content Area */ 
 .hero-content { 
-padding: 0 10% 0 15%; /* Spacing ko lock kar diya */ 
+padding: 0 10% 0 15%; 
 position: relative; 
 z-index: 5; 
 } 
 .hero-content h1 { 
-font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive but controlled size */ 
+font-size: clamp(2.5rem, 5vw, 4rem); 
 color: var(--certo-dark-blue); 
 line-height: 1.1; 
 font-weight: 800; 
@@ -116,22 +116,21 @@ border-radius: 50px !important;
 /* Ensure the container doesn't squeeze the logo */
 .navbar .container {
     display: flex;
-    justify-content: space-between; /* Keeps logo left, button right */
+    justify-content: space-between; 
     align-items: center;
 }
 /* Specific styling for the button image */
 .fixed-btn-img {
-    height: 35px;            /* Set the fixed height */
-    width: auto;             /* Keeps the image aspect ratio perfect */
-    cursor: pointer;         /* Shows hand icon on hover */
-    transition: transform 0.2s ease, opacity 0.2s ease; /* Smooth transition for hover effect */
-    display: block;
+    height: 35px;           
+    width: auto;             
+    cursor: pointer;        
+    transition: transform 0.2s ease, opacity 0.2s ease; 
 }
 
 /* Hover effect to make it interactive */
 .fixed-btn-img:hover {
-    transform: scale(1.05);  /* Slightly grows when hovered */
-    opacity: 0.9;            /* Slightly fades for a button-click feel */
+    transform: scale(1.05);  
+    opacity: 0.9;            
 }
 
 /* --- NAVBAR LOGO STYLING --- */
