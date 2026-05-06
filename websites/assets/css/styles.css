@@ -708,3 +708,7 @@ margin-bottom: 30px;
     text-align: left;       /* Text ko left side par align rakhne ke liye */
 }
 
+.copyright-row a {
+    color: white;
+    text-decoration: underline;
+}
