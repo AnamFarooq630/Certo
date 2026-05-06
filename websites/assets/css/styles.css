@@ -203,7 +203,7 @@ align-items: center;
 .sec2-heading { 
 margin-bottom: 40px; 
 width: 100%; 
-text-align: left; /* Keeps heading aligned to the left */ 
+text-align: left;  
 } 
 .sec2-heading img { 
 max-width: 500px; 
@@ -218,8 +218,8 @@ display: flex;
 justify-content: center; 
 } 
 .full-cards-img { 
-width: 127%; /* Slightly larger to fully cover the design */ 
-max-width: none; /* Remove width constraints */ 
+width: 127%; 
+max-width: none; 
 height: auto; 
 } 
 /* Logos Section Fix */ 
@@ -239,8 +239,7 @@ display: block;
 /* Mobile Responsive */ 
 @media (max-width: 768px) { 
 .full-cards-img { 
-width: 200%; /* Makes cards feel scrollable on mobile */ 
-} 
+width: 200%; 
 } 
                             
                                
@@ -252,7 +251,7 @@ overflow: hidden;
 width: 1500px; ; 
 } 
 .mission-text-img {
-    margin-left: -140px;  /* adjust: -20px, -60px as needed */
+    margin-left: -140px;  
 }
 .mission-person-img {
      position: relative; 
@@ -285,7 +284,7 @@ display: block;
 /* Right Content: Visual with Frame */ 
 .mission-visual { 
 position: relative; 
-padding: 30px; /* Space for the yellow frame to show */ 
+padding: 30px; 
 display: flex; 
 justify-content: center; 
 align-items: center; 
@@ -323,7 +322,7 @@ display: none;
                           /*Sectio 4*/ 
 /* --- SECTION 4: LIGHT BLUE/WHITE STYLE --- */ 
 .spyware-full-blue {
-     background-color: #d0cfcf;/* changed to white */
+     background-color: #d0cfcf;
     padding: 100px 0;
     width: 100%;
     display: flex;
@@ -332,12 +331,12 @@ display: none;
 .spyware-full-blue .container { 
 display: flex; 
 flex-direction: column; 
-align-items: center; /* Horizontally Center */ 
+align-items: center; 
 text-align: center; 
 } 
 /* Heading Image (image10) */ 
 .spy-header-row { 
-margin-bottom: 60px; /* Image 10 aur 11 ke darmiyan gap */ 
+margin-bottom: 60px;  
 width: 100%; 
 } 
 .img-10-full { 
@@ -351,11 +350,11 @@ display: inline-block;
 width: 100%; 
 } 
 .img-11-full {
-    max-width: 700px;   /* adjust size here */
+    max-width: 700px;   
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;     /* keeps it centered */
+    margin: 0 auto;     
 }
 /* Mobile Responsive */ 
 @media (max-width: 768px) { 
