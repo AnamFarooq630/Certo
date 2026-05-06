@@ -505,7 +505,7 @@ margin-bottom: 30px;
 }
 
 .badge-mid {
-    height: 400px; /* Size 25px se barha kar 60px kar diya hai */
+    height: 400px; 
     width: auto;
     object-fit: contain;
    
@@ -513,7 +513,7 @@ margin-bottom: 30px;
 
 /* Image 19: Bottom Badge (Large) */
 .img-19-bottom {
-    height: 50px; /* Image 19 ko sabse wazeh rakha hai */
+    height: 50px;
     width: auto;
     display: inline-block;
 }
@@ -529,7 +529,7 @@ margin-bottom: 30px;
     }
     
     .badge-mid {
-        height: 40px; /* Mobile par thora chota rakha hai */
+        height: 40px; 
     }
     
     .img-19-bottom {
@@ -550,7 +550,7 @@ margin-bottom: 30px;
 }
 
 .container {
-    max-width: 900px; /* Is se spacing tight ho jayegi */
+    max-width: 900px; 
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -569,16 +569,16 @@ margin-bottom: 30px;
     filter: brightness(0) invert(1);
 }
 
-/* Footer version */
+
 .future50-box {
     height: 50px;
     width: auto;
 
-    /* white color for dark bg */
+    
     filter: brightness(0) invert(1);
 }
 
-/* Row alignment */
+
 .footer-row-wrapper {
     display: flex;
     justify-content: space-between;
@@ -591,7 +591,7 @@ margin-bottom: 30px;
     align-items: center;
 }
 
-/* Google + Future 50 Stack */
+
 .stack {
     flex-direction: column;
     align-items: flex-start !important;
@@ -621,7 +621,7 @@ margin-bottom: 30px;
     
 }
 
-/* Yellow Box Styling */
+
 .yellow-rect {
     background-color: #ecb322;
     width: 300px;
