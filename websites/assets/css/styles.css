@@ -585,7 +585,7 @@ margin-bottom: 30px;
 .footer-row-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Sab ko center align rakha hai row mein */
+    align-items: center; 
     margin-bottom: 40px;
 }
 
